@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Dashboard</title>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/Dashboard_v3.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>CREATIVE TIM</h2>
+        <ul>
+            <li class="active"><i class="fa-solid fa-gauge"></i> Dashboard</li>
+            <li><i class="fa-solid fa-user"></i> User Profile</li>
+            <li><i class="fa-solid fa-table"></i> Table List</li>
+            <li><i class="fa-solid fa-font"></i> Typography</li>
+            <li><i class="fa-solid fa-icons"></i> Icons</li>
+            <li><i class="fa-solid fa-chart-pie"></i> Stats</li>
+            <li><i class="fa-solid fa-bell"></i> Notifications</li>
+            <li><i class="fa-solid fa-arrows-left-right"></i> RTL Support</li>
+            <li><i class="fa-solid fa-crown"></i> Upgrade to PRO</li>
+        </ul>
+    </aside>
+
+    <!-- Main -->
+    <main class="main-content">
+        <!-- Topbar -->
+        <header class="topbar">
+            <input type="text" placeholder="Search...">
+            <div class="top-icons">
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-gear"></i>
+                <img src="https://i.pravatar.cc/40" class="profile">
+            </div>
+        </header>
+
+        <!-- Stats Cards -->
+        <section class="stats">
+            <div class="card red"><i class="fa-solid fa-database"></i>
+                <h3>49/50 GB</h3>
+                <p>Used Space</p>
+            </div>
+            <div class="card green"><i class="fa-solid fa-dollar-sign"></i>
+                <h3>$34,245</h3>
+                <p>Revenue</p>
+            </div>
+            <div class="card orange"><i class="fa-solid fa-bug"></i>
+                <h3>75</h3>
+                <p>Fixed Issues</p>
+            </div>
+            <div class="card blue"><i class="fa-brands fa-twitter"></i>
+                <h3>+245</h3>
+                <p>Followers</p>
+            </div>
+        </section>
+
+        <!-- Charts -->
+        <section class="charts">
+            <div class="chart-card">
+                <h4>Daily Sales</h4>
+                <canvas id="salesChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h4>Email Subscriptions</h4>
+                <canvas id="emailChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h4>Completed Tasks</h4>
+                <canvas id="tasksChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer-cards">
+            <div class="footer-card purple">
+                <h4>Tasks</h4>
+                <p>Bugs, Website, Server</p>
+            </div>
+            <div class="footer-card yellow">
+                <h4>Employees Stats</h4>
+                <p>New employees on 7th September, 2025</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/Dashboard_v3.js"></script>
+</body>
+
+</html>
