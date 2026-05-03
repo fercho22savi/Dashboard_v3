@@ -14,11 +14,11 @@ El objetivo fue probar el flujo de trabajo entre dos IA para generar una interfa
 ### 🛠️ **¿Cómo se hizo?**
 *   🧠 **ChatGPT:** Se encargó de la arquitectura general del HTML y la jerarquía de las tarjetas de métricas.
 *   🎨 **Gemini:** Ayudó a refinar el CSS, los degradados y la integración de los gráficos dinámicos.
-*   🚀 **Despliegue:** Optimizado para cargar rápidamente desde GitHub Pages antes de pasarlo a CodePen.
+*   🚀 **Despliegue:** Optimizado para cargar rápidamente desde GitHub Pages.
 
 ### 📊 **Lo destacado del proyecto:**
 *   ✅ **Métricas Visuales:** Tarjetas interactivas de ingresos, almacenamiento y comunidad.
-*   📈 **Gráficos en Tiempo Real:** Visualización de ventas y suscripciones mensuales.
+*   📈 **Gráficos :** Visualización de ventas y suscripciones mensuales.
 *   📱 **Diseño Pro:** Barra lateral navegable y responsive con estética de Creative Tim.
 
 > 💡 **Tip:** El uso de IA como "copiloto" permitió reducir el tiempo de maquetación en un 70%.
