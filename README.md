@@ -6,7 +6,7 @@ El objetivo fue probar el flujo de trabajo entre dos IA para generar una interfa
 
 ---
 
-### 🌐 **Demo en Vivo:**
+### 🌐 **Enlace:**
 🔗 **[Ver Dashboard v3](https://fercho22savi.github.io/Dashboard_v3/)** 👈
 
 ---
